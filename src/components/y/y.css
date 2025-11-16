@@ -1,0 +1,38 @@
+.y__content{
+    width: 100%;
+    max-width: 1191px;
+    display: grid;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    padding: 16px 0px 16px 43px;
+    border-radius: 18px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin: 48px 0 24px 0;
+}
+
+.y__card{
+    display: flex;
+    align-items: center;
+}
+
+.y__card_img{
+    display: block;
+    width: auto;
+    max-height: 65px;
+    margin-right: 10px;
+}
+
+.y__card_txt{
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: -.3px;
+}
+
+.y__card_sub_txt{
+    font-size: 10px;
+    line-height: 1;
+    font-weight: 700;
+}

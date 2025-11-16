@@ -1,0 +1,49 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.r__header{
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #222;
+    padding-bottom: 20px;
+    letter-spacing: .5px;
+}
+
+.r__content{
+    width: 100%;
+    max-width: 1332px;
+    margin: 50px 0;
+}
+
+.r_img-wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    width: 100%;
+}
+
+.r__img-content{
+    background-color: #f6f6f9;
+    border-radius: 27px;
+    width: 208px;
+    height: 208px;
+    position: relative;
+}
+
+.r__img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.r__img_header{
+    font-size: 18px;
+    padding: 23px 0 0 23px;
+    line-height: 22px;
+    letter-spacing: .2px;
+    width: 80%;
+}

@@ -1,0 +1,53 @@
+.o__wrapper{
+    margin: 100px 0 100px 0;
+    max-width: 1332px;
+    overflow: hidden;
+    display: flex;
+}
+
+.o__scroller{
+    display: flex;
+    animation: scrolling 150s linear infinite;
+    width: fit-content;
+}
+
+.o__scrolls,
+.o__scrolls-cloned{
+    display: flex;
+    width: fit-content;
+}
+
+.o__scroller:hover{
+    animation-play-state: paused;
+}
+
+.o__card{
+    padding: 0 8px;
+    height: fit-content;
+    transition: margin .25s;
+}
+
+.o__card:hover{
+    margin: 0 16px;
+}
+
+.o__img{
+    width: 206px;
+    height: 103px;
+    display: block;
+    filter: grayscale(100%);
+    opacity: .7;
+    transition: all .25s;
+}
+
+.o__img:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+@keyframes scrolling{
+    to{
+        transform: translate(-50%);
+    }
+}

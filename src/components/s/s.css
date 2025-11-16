@@ -1,0 +1,72 @@
+.s__content{
+    width: 100%;
+    max-width: 996px;
+    margin-top: 68px;
+}
+
+.s__header{
+    margin-bottom: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #222;
+}
+
+.s__slides_wrapper{
+    display: flex;
+}
+
+.s__slide{
+    overflow: hidden;
+    border-radius: 24px;
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.s__slide_wr{
+    padding: 8px;
+    width: 20%;
+}
+
+.s__slide::after{
+    background-color: rgba(0,0,0,.04);
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+
+.s_text{
+    position: absolute;
+    margin: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    text-overflow: ellipsis;
+}
+
+.s__picture {
+    position: absolute;
+    width: 80%;
+    left: 38%;
+    top: 72px;
+    display: block;
+    padding-bottom: 100%;
+}
+
+.s__img{
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

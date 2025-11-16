@@ -1,0 +1,351 @@
+.w__content-wrapper{
+    width: 100%;
+    max-width: 1332px;
+    background-size: 110%;
+    background-position: center;
+    padding-bottom: 33px;
+}
+
+.w__cheader{
+    padding-left: 48px;
+    padding-top: 40px;
+}
+
+.w__second_line{
+    font: 40px Arial,Helvetica,sans-serif;
+    line-height: .1;
+    width: 40%;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 0;
+}
+
+.w_s_lines{
+    font-weight: 700;
+}
+
+.w_s_lines_from{
+    font-weight: 700;
+}
+
+.w_s_lines_curency{
+    font-size: 45px;
+    padding-left: 5px;
+    line-height: 1;
+}
+
+.w_main_content{
+    width: 93%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.w_header_price{
+    font: 89px Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: .95;
+}
+
+.w_f_line{
+    height: 32px;
+    display: block;
+}
+
+.w_btn-wrapper{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 -2px 5px 0 #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.w_btn_left{
+    transform: translate(-30%,-49%) rotate(180deg);
+    left: 0;
+}
+
+.w_btn_right{
+    transform: translate(50%,-49%);
+    right: 0;
+}
+
+.w_swiper-next{
+    width: 20px;
+    height: 20px;
+}
+
+.w_swiper-prev{
+    width: 20px;
+    height: 20px;
+}
+
+.w__shoe{
+    width: 288px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.w__img-wraper{
+    position: relative;
+    width: 161px;
+    height: 192px;
+}
+
+.w_sail-wrapper{
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px
+}
+
+.w__sail{
+    align-items: baseline;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 6px;
+    max-height: 16px;
+    background-color: #3d9966;
+    color: #fff;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.w__promo{
+    display: inline-block;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #e8912e;
+    padding: 0 4px;
+    border-radius: 6px;
+    font-size: 9px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.w__excluse{
+    display: flex;
+    pointer-events: none;
+    color: #fff;
+    display: flex;
+    position: relative;
+    width: fit-content;
+    margin-left: 2px;
+}
+
+.w_excluse_txt{
+    text-transform: uppercase;
+    background-color: #e8912e;
+    font-size: 10px;
+    height: 16px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.w_excluse_svg {
+    overflow: hidden;
+}
+
+.w_excluse_svg_left{
+    position: absolute;
+    left: -7px;
+    width: 14px;
+    height: 14px;
+    max-width: 14px;
+    max-height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+.w_excluse_svg_right{
+    right: -7px;
+    width: 14px;
+    height: 14px;
+    max-width: 14px;
+    max-height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: 0;
+}
+
+.w__descr{
+    margin-top: 12px;
+}
+
+.w__ya{
+    font-size: 10px;
+    line-height: 16px;
+    color: #006933;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-feature-settings: "pnum" on,"lnum" on;
+    white-space: nowrap;
+}
+
+.w__ya-svg{
+    display: flex;
+}
+
+.w__price-ya{
+    font: 0.8em Arial,Helvetica,sans-serif;
+    color: #006933;
+    font-size: 18px;
+    font-feature-settings: "pnum" on,"lnum" on;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.w__price_curr{
+    font-size: 13px;
+    line-height: 15px;
+    color: #006933;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.w__price-noya{
+    font: 0.8em Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8a8784;
+}
+
+.w__price-noya::before{
+    content: ' / ';
+}
+
+.w__price_noya_curr{
+    font-size: 11px;
+    line-height: 15px;
+    color: #8a8784;
+}
+
+.w__descript{
+    color: #222;
+    font-size: 14px;
+    line-height: 18px;
+    max-height: 36px;
+    -webkit-line-clamp: 2;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 106.027%;
+    margin-top: 5px;
+}
+
+.w_control_btns{
+    display: flex;
+    width: 100%;
+}
+
+.w_btn{
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 100px;
+    padding: 7px 12px;
+    margin-right: 8px;
+    transition: all .12s ease-out;
+    color: #42413e;
+    background: #f1f0ed;
+}
+.w_btn:hover{
+    color: #42413e;
+    background: #e7e5e1;
+}
+
+.active{
+    color: #fff !important;
+    background: #42413e !important;
+}
+
+.w_cards_swiper{
+    font-size: 30px;
+    position: relative;
+    margin-top: 24px;
+}
+
+.w__img{
+    width: 161px;
+    height: 175px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 10px;
+}
+
+.w__content .swiper-wrapper {
+    transition-timing-function: ease-in-out !important;
+}
+
+.w__card-wrapper{
+    margin: 0 8px;
+    border-radius: 12px;
+    background-color: #fff;
+    display: grid;
+    gap: 25px;
+    padding-bottom: 17px;
+}
+
+.w_slide_link{
+    padding: 16px;
+    display: block;
+}
+
+.w_bucket_btn{
+    margin-top: 12px;
+    height: 40px;
+    padding: 0 16px;
+    border-width: 1px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0;
+    background-color: #fc0;
+    border-radius: 7px;
+    transition: all .12s ease-out;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 0;
+    font: inherit;
+    border: solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 38px;
+    color: #212121;
+    vertical-align: middle;
+    font-weight: 600;
+    justify-self: center;
+    width: 160px;
+}
+
+.w_bucket_btn:hover{
+    background-color: #f5c400;
+}

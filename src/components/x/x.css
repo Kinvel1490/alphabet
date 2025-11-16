@@ -1,0 +1,220 @@
+.x_content-wrapper{
+    width: 100%;
+    max-width: 1332px;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 33px;
+    border-radius: 24px;
+    padding: 48px 40px 52px 40px;
+}
+
+.x_header{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.x_btn_left{
+    transform: translate(-30%,-49%) rotate(180deg);
+    left: 0;
+}
+
+.x_btn_right{
+    transform: translate(50%,-49%);
+    right: 0;
+}
+
+.x_swiper-next{
+    width: 20px;
+    height: 20px;
+}
+
+.x_swiper-prev{
+    width: 20px;
+    height: 20px;
+}
+
+.x__card-wrapper{
+    margin: 0 8px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #fff;
+    height: 100%;
+}
+
+.x__shoe{
+    width: 288px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.x__img-wraper{
+    position: relative;
+    width: 100%;
+    height: 246px;
+    display: flex;
+    align-items: center;
+}
+
+.x__img{
+    margin: auto;
+    display: block;
+    width: 175px;
+    height: 175px;
+}
+
+.x_sail-wrapper{
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px
+}
+
+.x_slide_link{
+    height: 348px;
+    display: block;
+}
+
+.x__sail,
+.x__expire{
+    align-items: baseline;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 6px;
+    max-height: 16px;
+    background-color: #fc5230;
+    color: #fff;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: 500;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.x__descr{
+    margin-top: 8px;
+}
+
+.x__ya{
+    font-size: 10px;
+    line-height: 16px;
+    color: #212121;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-feature-settings: "pnum" on,"lnum" on;
+    white-space: nowrap;
+}
+
+.x__ya-svg{
+    display: flex;
+}
+
+.x__price-wr{
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.x__price-ya{
+    font: 0.8em Arial,Helvetica,sans-serif;
+    color: #212121;
+    font-size: 18px;
+    font-feature-settings: "pnum" on,"lnum" on;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.x__price_curr{
+    font-size: 13px;
+    line-height: 15px;
+    color: #212121;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.x__price-noya{
+    font: 0.8em Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #8a8784;
+    text-decoration: line-through;
+}
+
+.x__descript{
+    color: #222;
+    font-size: 14px;
+    line-height: 18px;
+    max-height: 36px;
+    -webkit-line-clamp: 2;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 106.027%;
+    margin-top: 5px;
+}
+
+.x_bucket_btn_wrapper{
+    margin-top: 12px;
+}
+
+.x_bucket_btn{
+    margin-top: 12px;
+    height: 40px;
+    padding: 0 16px;
+    border-width: 1px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0;
+    background-color: #fc0;
+    border-radius: 7px;
+    transition: all .12s ease-out;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 0;
+    font: inherit;
+    border: solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 38px;
+    color: #212121;
+    vertical-align: middle;
+    font-weight: 600;
+    justify-self: center;
+    width: 100%;
+}
+
+.x_bucket_btn:hover{
+    background-color: #f5c400;
+}
+
+.x_cards_swiper{
+    position: relative;
+}
+
+.x_btn-wrapper{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 -2px 5px 0 #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}

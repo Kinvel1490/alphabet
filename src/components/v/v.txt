@@ -1,0 +1,3 @@
+использутся swiper.js
+в терминале npm i swiper
+https://swiperjs.com/

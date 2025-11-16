@@ -1,0 +1,29 @@
+.u__content{
+    width: 100%;
+    max-width: 1332px;
+    display: flex;
+    background-color: #f7f5f4;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 18px;
+}
+
+.u__card{
+    display: flex;
+    align-items: center;
+    max-width: 21%;
+}
+
+.u__card_img{
+    display: block;
+    width: auto;
+    max-height: 75px;
+    margin-right: 10px;
+}
+
+.u__card_txt{
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 700;
+}
